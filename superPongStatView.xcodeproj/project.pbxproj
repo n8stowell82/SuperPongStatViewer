@@ -13,6 +13,29 @@
 		F7938AF71A685E3000CDCDAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7938AF61A685E3000CDCDAA /* Images.xcassets */; };
 		F7938AFA1A685E3000CDCDAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7938AF81A685E3000CDCDAA /* LaunchScreen.xib */; };
 		F7938B061A685E3000CDCDAA /* superPongStatViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B051A685E3000CDCDAA /* superPongStatViewTests.swift */; };
+		F7938B221A685E6E00CDCDAA /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = F7938B121A685E6E00CDCDAA /* Contents.json */; };
+		F7938B231A685E6E00CDCDAA /* superPongIcon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B131A685E6E00CDCDAA /* superPongIcon-29.png */; };
+		F7938B241A685E6E00CDCDAA /* superPongIcon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B141A685E6E00CDCDAA /* superPongIcon-29@2x.png */; };
+		F7938B251A685E6E00CDCDAA /* superPongIcon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B151A685E6E00CDCDAA /* superPongIcon-29@3x.png */; };
+		F7938B261A685E6E00CDCDAA /* superPongIcon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B161A685E6E00CDCDAA /* superPongIcon-40.png */; };
+		F7938B271A685E6E00CDCDAA /* superPongIcon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B171A685E6E00CDCDAA /* superPongIcon-40@2x.png */; };
+		F7938B281A685E6E00CDCDAA /* superPongIcon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B181A685E6E00CDCDAA /* superPongIcon-40@3x.png */; };
+		F7938B291A685E6E00CDCDAA /* superPongIcon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B191A685E6E00CDCDAA /* superPongIcon-60@2x.png */; };
+		F7938B2A1A685E6E00CDCDAA /* superPongIcon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B1A1A685E6E00CDCDAA /* superPongIcon-60@3x.png */; };
+		F7938B2B1A685E6E00CDCDAA /* superPongIcon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B1B1A685E6E00CDCDAA /* superPongIcon-76.png */; };
+		F7938B2C1A685E6E00CDCDAA /* superPongIcon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B1C1A685E6E00CDCDAA /* superPongIcon-76@2x.png */; };
+		F7938B2D1A685E6E00CDCDAA /* superPongIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B1E1A685E6E00CDCDAA /* superPongIcon.png */; };
+		F7938B2E1A685E6E00CDCDAA /* superPongIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B1F1A685E6E00CDCDAA /* superPongIcon@2x.png */; };
+		F7938B2F1A685E6E00CDCDAA /* superPongIcon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B201A685E6E00CDCDAA /* superPongIcon@2x~ipad.png */; };
+		F7938B301A685E6E00CDCDAA /* superPongIcon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F7938B211A685E6E00CDCDAA /* superPongIcon~ipad.png */; };
+		F7938B411A685F0E00CDCDAA /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B391A685F0E00CDCDAA /* HRToast+UIView.swift */; };
+		F7938B491A685F6700CDCDAA /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B421A685F6700CDCDAA /* GameModel.swift */; };
+		F7938B4A1A685F6700CDCDAA /* GamePlayersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B431A685F6700CDCDAA /* GamePlayersAPI.swift */; };
+		F7938B4B1A685F6700CDCDAA /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B441A685F6700CDCDAA /* PlayerDetailViewController.swift */; };
+		F7938B4C1A685F6700CDCDAA /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B451A685F6700CDCDAA /* PlayerModel.swift */; };
+		F7938B4D1A685F6700CDCDAA /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B461A685F6700CDCDAA /* PlayerTableViewController.swift */; };
+		F7938B4E1A685F6700CDCDAA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B471A685F6700CDCDAA /* SwiftyJSON.swift */; };
+		F7938B4F1A685F6700CDCDAA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7938B481A685F6700CDCDAA /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,29 @@
 		F7938AFF1A685E3000CDCDAA /* superPongStatViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superPongStatViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7938B041A685E3000CDCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7938B051A685E3000CDCDAA /* superPongStatViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superPongStatViewTests.swift; sourceTree = "<group>"; };
+		F7938B121A685E6E00CDCDAA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		F7938B131A685E6E00CDCDAA /* superPongIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-29.png"; sourceTree = "<group>"; };
+		F7938B141A685E6E00CDCDAA /* superPongIcon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-29@2x.png"; sourceTree = "<group>"; };
+		F7938B151A685E6E00CDCDAA /* superPongIcon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-29@3x.png"; sourceTree = "<group>"; };
+		F7938B161A685E6E00CDCDAA /* superPongIcon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-40.png"; sourceTree = "<group>"; };
+		F7938B171A685E6E00CDCDAA /* superPongIcon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-40@2x.png"; sourceTree = "<group>"; };
+		F7938B181A685E6E00CDCDAA /* superPongIcon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-40@3x.png"; sourceTree = "<group>"; };
+		F7938B191A685E6E00CDCDAA /* superPongIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-60@2x.png"; sourceTree = "<group>"; };
+		F7938B1A1A685E6E00CDCDAA /* superPongIcon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-60@3x.png"; sourceTree = "<group>"; };
+		F7938B1B1A685E6E00CDCDAA /* superPongIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-76.png"; sourceTree = "<group>"; };
+		F7938B1C1A685E6E00CDCDAA /* superPongIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon-76@2x.png"; sourceTree = "<group>"; };
+		F7938B1E1A685E6E00CDCDAA /* superPongIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superPongIcon.png; sourceTree = "<group>"; };
+		F7938B1F1A685E6E00CDCDAA /* superPongIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon@2x.png"; sourceTree = "<group>"; };
+		F7938B201A685E6E00CDCDAA /* superPongIcon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon@2x~ipad.png"; sourceTree = "<group>"; };
+		F7938B211A685E6E00CDCDAA /* superPongIcon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superPongIcon~ipad.png"; sourceTree = "<group>"; };
+		F7938B391A685F0E00CDCDAA /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		F7938B421A685F6700CDCDAA /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F7938B431A685F6700CDCDAA /* GamePlayersAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayersAPI.swift; sourceTree = "<group>"; };
+		F7938B441A685F6700CDCDAA /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
+		F7938B451A685F6700CDCDAA /* PlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		F7938B461A685F6700CDCDAA /* PlayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		F7938B471A685F6700CDCDAA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F7938B481A685F6700CDCDAA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +105,8 @@
 		F7938AE11A685E3000CDCDAA = {
 			isa = PBXGroup;
 			children = (
+				F7938B381A685F0E00CDCDAA /* Toast */,
+				F7938B0F1A685E6E00CDCDAA /* icons */,
 				F7938AEC1A685E3000CDCDAA /* superPongStatView */,
 				F7938B021A685E3000CDCDAA /* superPongStatViewTests */,
 				F7938AEB1A685E3000CDCDAA /* Products */,
@@ -77,6 +125,13 @@
 		F7938AEC1A685E3000CDCDAA /* superPongStatView */ = {
 			isa = PBXGroup;
 			children = (
+				F7938B421A685F6700CDCDAA /* GameModel.swift */,
+				F7938B431A685F6700CDCDAA /* GamePlayersAPI.swift */,
+				F7938B441A685F6700CDCDAA /* PlayerDetailViewController.swift */,
+				F7938B451A685F6700CDCDAA /* PlayerModel.swift */,
+				F7938B461A685F6700CDCDAA /* PlayerTableViewController.swift */,
+				F7938B471A685F6700CDCDAA /* SwiftyJSON.swift */,
+				F7938B481A685F6700CDCDAA /* TableViewCell.swift */,
 				F7938AEF1A685E3000CDCDAA /* AppDelegate.swift */,
 				F7938AF11A685E3000CDCDAA /* ViewController.swift */,
 				F7938AF31A685E3000CDCDAA /* Main.storyboard */,
@@ -110,6 +165,60 @@
 				F7938B041A685E3000CDCDAA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7938B0F1A685E6E00CDCDAA /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				F7938B101A685E6E00CDCDAA /* iOS */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		F7938B101A685E6E00CDCDAA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7938B111A685E6E00CDCDAA /* AppIcon.appiconset */,
+				F7938B1D1A685E6E00CDCDAA /* Legacy (iOS 6 and before) */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F7938B111A685E6E00CDCDAA /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				F7938B121A685E6E00CDCDAA /* Contents.json */,
+				F7938B131A685E6E00CDCDAA /* superPongIcon-29.png */,
+				F7938B141A685E6E00CDCDAA /* superPongIcon-29@2x.png */,
+				F7938B151A685E6E00CDCDAA /* superPongIcon-29@3x.png */,
+				F7938B161A685E6E00CDCDAA /* superPongIcon-40.png */,
+				F7938B171A685E6E00CDCDAA /* superPongIcon-40@2x.png */,
+				F7938B181A685E6E00CDCDAA /* superPongIcon-40@3x.png */,
+				F7938B191A685E6E00CDCDAA /* superPongIcon-60@2x.png */,
+				F7938B1A1A685E6E00CDCDAA /* superPongIcon-60@3x.png */,
+				F7938B1B1A685E6E00CDCDAA /* superPongIcon-76.png */,
+				F7938B1C1A685E6E00CDCDAA /* superPongIcon-76@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		F7938B1D1A685E6E00CDCDAA /* Legacy (iOS 6 and before) */ = {
+			isa = PBXGroup;
+			children = (
+				F7938B1E1A685E6E00CDCDAA /* superPongIcon.png */,
+				F7938B1F1A685E6E00CDCDAA /* superPongIcon@2x.png */,
+				F7938B201A685E6E00CDCDAA /* superPongIcon@2x~ipad.png */,
+				F7938B211A685E6E00CDCDAA /* superPongIcon~ipad.png */,
+			);
+			path = "Legacy (iOS 6 and before)";
+			sourceTree = "<group>";
+		};
+		F7938B381A685F0E00CDCDAA /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				F7938B391A685F0E00CDCDAA /* HRToast+UIView.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +302,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7938AF51A685E3000CDCDAA /* Main.storyboard in Resources */,
+				F7938B251A685E6E00CDCDAA /* superPongIcon-29@3x.png in Resources */,
+				F7938B2C1A685E6E00CDCDAA /* superPongIcon-76@2x.png in Resources */,
 				F7938AFA1A685E3000CDCDAA /* LaunchScreen.xib in Resources */,
+				F7938B241A685E6E00CDCDAA /* superPongIcon-29@2x.png in Resources */,
+				F7938B2A1A685E6E00CDCDAA /* superPongIcon-60@3x.png in Resources */,
+				F7938B261A685E6E00CDCDAA /* superPongIcon-40.png in Resources */,
+				F7938B2B1A685E6E00CDCDAA /* superPongIcon-76.png in Resources */,
 				F7938AF71A685E3000CDCDAA /* Images.xcassets in Resources */,
+				F7938B2F1A685E6E00CDCDAA /* superPongIcon@2x~ipad.png in Resources */,
+				F7938B281A685E6E00CDCDAA /* superPongIcon-40@3x.png in Resources */,
+				F7938B2D1A685E6E00CDCDAA /* superPongIcon.png in Resources */,
+				F7938B231A685E6E00CDCDAA /* superPongIcon-29.png in Resources */,
+				F7938B301A685E6E00CDCDAA /* superPongIcon~ipad.png in Resources */,
+				F7938B221A685E6E00CDCDAA /* Contents.json in Resources */,
+				F7938B2E1A685E6E00CDCDAA /* superPongIcon@2x.png in Resources */,
+				F7938B291A685E6E00CDCDAA /* superPongIcon-60@2x.png in Resources */,
+				F7938B271A685E6E00CDCDAA /* superPongIcon-40@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7938B4A1A685F6700CDCDAA /* GamePlayersAPI.swift in Sources */,
 				F7938AF21A685E3000CDCDAA /* ViewController.swift in Sources */,
+				F7938B4B1A685F6700CDCDAA /* PlayerDetailViewController.swift in Sources */,
+				F7938B491A685F6700CDCDAA /* GameModel.swift in Sources */,
 				F7938AF01A685E3000CDCDAA /* AppDelegate.swift in Sources */,
+				F7938B4F1A685F6700CDCDAA /* TableViewCell.swift in Sources */,
+				F7938B411A685F0E00CDCDAA /* HRToast+UIView.swift in Sources */,
+				F7938B4E1A685F6700CDCDAA /* SwiftyJSON.swift in Sources */,
+				F7938B4D1A685F6700CDCDAA /* PlayerTableViewController.swift in Sources */,
+				F7938B4C1A685F6700CDCDAA /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
