@@ -8,16 +8,16 @@
 
 import Foundation
 
-class PlayerModel: Serializable, Printable {
-    let id: Int
-    let name: String
-    var slogan: String
-    let wins: Int
-    let totalGames: Int
-    let mostKilled: String
-    let mostKilledBy: String
-    var rank: Int
-    var isInCurrentGame: Bool
+public class PlayerModel: Serializable, Printable {
+    public let id: Int
+    public let name: String
+    public var slogan: String
+    public let wins: Int
+    public let totalGames: Int
+    public let mostKilled: String
+    public let mostKilledBy: String
+    public var rank: Int
+    public var isInCurrentGame: Bool
     
     init(id: Int?, name: String?, slogan: String?, rank: Int?, wins: Int?, totalGames:Int?, mostKilled:String?, mostKilledBy:String?) {
         self.id = id ?? 0
@@ -31,7 +31,7 @@ class PlayerModel: Serializable, Printable {
         self.isInCurrentGame = false
     }
     
-    func setSlogan(newSlogan:String){
+    public func setSlogan(newSlogan:String){
         slogan = newSlogan
     }
 }

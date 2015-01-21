@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7938AE91A685E3000CDCDAA"
-               BuildableName = "superPongStatView.app"
-               BlueprintName = "superPongStatView"
-               ReferencedContainer = "container:superPongStatView.xcodeproj">
+               BlueprintIdentifier = "F76691431A6E2538009437C5"
+               BuildableName = "SuperPong.framework"
+               BlueprintName = "SuperPong"
+               ReferencedContainer = "container:SuperPong.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7938AFE1A685E3000CDCDAA"
-               BuildableName = "superPongStatViewTests.xctest"
-               BlueprintName = "superPongStatViewTests"
-               ReferencedContainer = "container:superPongStatView.xcodeproj">
+               BlueprintIdentifier = "F766914E1A6E2538009437C5"
+               BuildableName = "SuperPongTests.xctest"
+               BlueprintName = "SuperPongTests"
+               ReferencedContainer = "container:SuperPong.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7938AFE1A685E3000CDCDAA"
-               BuildableName = "superPongStatViewTests.xctest"
-               BlueprintName = "superPongStatViewTests"
-               ReferencedContainer = "container:superPongStatView.xcodeproj">
+               BlueprintIdentifier = "F766914E1A6E2538009437C5"
+               BuildableName = "SuperPongTests.xctest"
+               BlueprintName = "SuperPongTests"
+               ReferencedContainer = "container:SuperPong.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7938AE91A685E3000CDCDAA"
-            BuildableName = "superPongStatView.app"
-            BlueprintName = "superPongStatView"
-            ReferencedContainer = "container:superPongStatView.xcodeproj">
+            BlueprintIdentifier = "F76691431A6E2538009437C5"
+            BuildableName = "SuperPong.framework"
+            BlueprintName = "SuperPong"
+            ReferencedContainer = "container:SuperPong.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,15 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7938AE91A685E3000CDCDAA"
-            BuildableName = "superPongStatView.app"
-            BlueprintName = "superPongStatView"
-            ReferencedContainer = "container:superPongStatView.xcodeproj">
+            BlueprintIdentifier = "F76691431A6E2538009437C5"
+            BuildableName = "SuperPong.framework"
+            BlueprintName = "SuperPong"
+            ReferencedContainer = "container:SuperPong.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7938AE91A685E3000CDCDAA"
-            BuildableName = "superPongStatView.app"
-            BlueprintName = "superPongStatView"
-            ReferencedContainer = "container:superPongStatView.xcodeproj">
+            BlueprintIdentifier = "F76691431A6E2538009437C5"
+            BuildableName = "SuperPong.framework"
+            BlueprintName = "SuperPong"
+            ReferencedContainer = "container:SuperPong.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

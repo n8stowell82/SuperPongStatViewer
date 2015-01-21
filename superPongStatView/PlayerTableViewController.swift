@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SuperPongCore
 
 //protocol PLayerViewDelegate{
 //    func AddPlayersToGame(players: [PlayerModel])
@@ -16,7 +17,7 @@ protocol PLayerViewDelegate {
     func AddNewPlayerToGame(player: PlayerModel)
 }
 
-class PlayerTableViewController: UITableViewController, TableViewCellDelegate {
+class PlayerTableViewController: UITableViewController {
     
     enum UIUserInterfaceIdiom : Int {
         case Unspecified
@@ -65,7 +66,7 @@ class PlayerTableViewController: UITableViewController, TableViewCellDelegate {
         //tableView setup
        
         self.tableView.backgroundColor = UIColor.darkGrayColor()
-        self.tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: "cell")
+        self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         self.tableView.separatorStyle = .None
         self.tableView.rowHeight = 80.0
         self.tableView.reloadData()
@@ -95,13 +96,12 @@ class PlayerTableViewController: UITableViewController, TableViewCellDelegate {
     
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as TableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
 
         // Get the corresponding candy from our candies array
         let player = self.players[indexPath.row]
         
         // Configure the cell
-        cell.canAddPlayer = true
         if player.isInCurrentGame{
             decoratePlayerAsSelected(player)
         }else{
@@ -114,8 +114,6 @@ class PlayerTableViewController: UITableViewController, TableViewCellDelegate {
         cell.tintColor = UIColor.blackColor()
         cell.textLabel?.text = "#" + player.rank.description + " " + player.name
         cell.accessoryType = UITableViewCellAccessoryType.DetailButton
-        cell.delegate = self
-        cell.player = player
 
         return cell
     }
@@ -278,9 +276,9 @@ class PlayerTableViewController: UITableViewController, TableViewCellDelegate {
         if segue.identifier == "playerDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow(){
                 let selectedPlayer = players[indexPath.row]
-                let playerDetailViewController = (segue.destinationViewController as UINavigationController).topViewController as PlayerDetailViewController
-//                let playerDetailViewController = segue.destinationViewController as PlayerDetailViewController
-                playerDetailViewController.title = "Player Stats"
+//                let playerDetailViewController = (segue.destinationViewController as UINavigationController).topViewController as PlayerDetailViewController
+                let playerDetailViewController = segue.destinationViewController as PlayerDetailViewController
+//                playerDetailViewController.title = "Player Stats"
                 playerDetailViewController.player = selectedPlayer
             }
         }

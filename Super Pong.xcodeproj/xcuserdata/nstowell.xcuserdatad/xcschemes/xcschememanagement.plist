@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SuperPong Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SuperPongCore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>superPongStatView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F76691231A6E15B3009437C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F76691701A6E9CC1009437C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F766917A1A6E9CC1009437C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7938AE91A685E3000CDCDAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7938AFE1A685E3000CDCDAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:superPongStatView.xcodeproj">
+      location = "self:Super Pong.xcodeproj">
    </FileRef>
 </Workspace>

@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>superPongStatView.xcscheme</key>
+		<key>SuperPong.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F7938AE91A685E3000CDCDAA</key>
+		<key>F76691431A6E2538009437C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7938AFE1A685E3000CDCDAA</key>
+		<key>F766914E1A6E2538009437C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

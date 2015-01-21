@@ -8,11 +8,11 @@
 
 import Foundation
 
-class GameModel: NSObject, Printable {
-    var title:String?
-    var winner: Int?
-    var active:Bool?
-    var id:Int?
+public class GameModel: NSObject, Printable {
+    public var title:String?
+    public var winner: Int?
+    public var active:Bool?
+    public var id:Int?
     
     
     init(gameId:Int, gameTitle:String, gameWinner:Int, isActive:Bool)
